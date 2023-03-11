@@ -2,69 +2,145 @@
     margin: 0;
     padding: 0;
 }
-header1{
-    display: flex
-    
-
-    
+body{
+    background-color: lightgray;
 }
-nav{
+
+.nav{
     display: flex;
     padding: 2% 2%;
     justify-content: space-between;
     align-items: left;
+    background-color: lightgrey;
 }
-image{
-   margin-left: 5%; 
-   margin-top: 5%;
-   padding-top: 500px;
-   position: relative;
+.furniture{
+    padding-left: 10%;
+    background-color: lightgray;
+    font-size: large;
+    font-size: 20px;
+}
+.furniture{
+    display: flex;
+}
+
+   
     
- }
- button{
+ 
+ .butt{
     padding: 20px;
     border-radius: 25px;
     font-weight: bold;
- }   
+    margin-top: 7%;
+    display: flex;
+    background-color: black;
+    color: white;
+ } 
+ 
+ 
 
-header2{
+
+.header{
     display:flex
 }
-image{
+.goods{
+    margin-left: 45%;
+    margin-top: 2%;
+    
+}
+.header2{
     display: flex;
-    width: 200px;
-    height: 200px;
-
-    
-    
-    
+    justify-content: space-between;
+    margin-top: 4%;
+     
+}
+.sits{
+    display: flex;
+    justify-content: space-between;
+}
+.chair{
+    width: 20%;
+    height: 15%;
 }
 
 
-header3{
+.header3{
     display: flex;
-    margin-left: 30%;
+    margin-left: 25%;
+    justify-content: space-between;
+    margin-top: 5%;
+    width: 75%;
+    height: 65%;
     
 }
 
 .header4{  
     background-color: black;
     color: white;
+    margin-top: 3%;
+    
+}
+.discount{
+    margin-left: 35%;
+}
+
+.allowance{
+    margin-left: 25%;
+}
+.register{
+    margin-left: 45%;
+    margin-top: 2%;
+}
+
+.butt2{
+    margin-top: -20%;
+    margin-left: 53%;
+    border-radius: 20px;
+    padding: 1%;
+    font-weight: bold;
+
 }
 .header5{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 30%;   
-}
-.header6{
     display: flex;
-    align-items: center;
-    margin-left: 500px;
-    width: 400px;
-    height: 300px;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 40%;
+    height: 30%;
+      
+}
+.img{
+    margin-left: 30%;
+    
+}
+.magazine{
+    margin-left: 50%;
+    width: 25%;
+    height: 15%;
+    margin-top: -10%;
+}
+
+    
+
+.header6{
+ margin-top: 10%;
+ font-size: large; 
+ margin-left: 10%;
+ font-size: 20px;
+   
     
     
+}
+#sosa{
+    margin-left: 5%;
+    width: 600%;
+
+    
+}
+#dine{
+    margin-left: 30%;
+}
+#pic{
+    margin-left: 20%;
 }
 
 
@@ -72,6 +148,11 @@ header3{
 footer{
     display: flex;
     justify-content: space-between;
+    background-color: black;
+    color: white;
+    margin-top: 4%;
+    font-size: large;
+    font-size: 20px;
     
 
 }
